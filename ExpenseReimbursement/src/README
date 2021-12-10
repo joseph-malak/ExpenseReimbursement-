@@ -1,0 +1,19 @@
+
+Title of the Project: Expense Reimbursement System (ERS)
+
+
+Explanation and Overview of the project:
+
+    Manages the process of reimbursing employees for expenses incurred while on company time.
+
+
+List of features implemented:
+    ⚫	All employees in the company can login and submit requests for reimbursement and view their past tickets and pending requests.
+    ⚫	Finance managers can log in and view all reimbursement requests and past history for all employees in the company.
+    ⚫	Finance managers are authorized to approve and deny requests for expense reimbursement.
+
+Technologies used
+
+
+
+How to set up / get started using it, Usage of the project, Contributors, and License information.

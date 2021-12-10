@@ -1,0 +1,31 @@
+    Joseph
+        • DONE. Links for EmployeeServlet.java
+        • DONE. EmployeeSubmitReimbursementServlet.java doGet form
+        • DONE. doPost EmployeeSubmitReimbursementServlet.java html/css/bootstrap
+        • DONE. Employee Navbar html file.
+        • DONE. EmployeeViewPastRequestServlet
+        • EmployeeSubmitReimbursementServlet
+        • FinancialManagerServlet
+
+
+    Christian
+        • DONE. FinancialManager Class
+        • DONE. Create Reimbursement  class
+        • DONE. ReimbursementDao
+        • DONE. EmployeeViewPendingRequestServlet
+        • DONE. EmployeeViewPastRequestServlet
+        • DONE. FinancialManagerDao
+        • DONE. FinancialManagerServlet
+
+
+NOTES:
+    Finance managers can log in and view all reimbursement requests and past history for all employees in the company
+
+    Page FORMAT:
+    Employee Id | Employee Name | Employee Username | Reimbursement Detail | Reimbursement Amount | Reimbursement dateStart | Reimbursement dateEnd | Reimbursement ticketStatus
+
+    FinancialManagerServlet
+        • Financial Manager Logs In.
+        • Takes to the page viewing all pending Reimbursements.
+        • Financial Manager Navbar html file.
+

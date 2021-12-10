@@ -1,0 +1,151 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+
+  <display-name>Archetype Created Web Application</display-name>
+
+      <servlet>
+        <servlet-name>EmployeeServlet</servlet-name>
+        <servlet-class>EmployeeServlet</servlet-class>
+      </servlet>
+
+      <servlet-mapping>
+        <servlet-name>EmployeeServlet</servlet-name>
+        <url-pattern>/EmployeeServlet</url-pattern>
+      </servlet-mapping>
+
+      <servlet>
+        <servlet-name>AddEmployeeServlet</servlet-name>
+        <servlet-class>AddEmployeeServlet</servlet-class>
+      </servlet>
+
+      <servlet-mapping>
+        <servlet-name>AddEmployeeServlet</servlet-name>
+        <url-pattern>/AddEmployeeServlet</url-pattern>
+      </servlet-mapping>
+
+      <servlet>
+            <servlet-name>EmployeeSubmitReimbursementServlet</servlet-name>
+            <servlet-class>EmployeeSubmitReimbursementServlet</servlet-class>
+      </servlet>
+
+      <servlet-mapping>
+        <servlet-name>EmployeeSubmitReimbursementServlet</servlet-name>
+        <url-pattern>/EmployeeSubmitReimbursementServlet</url-pattern>
+      </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeViewPendingRequestsServlet</servlet-name>
+        <servlet-class>EmployeeViewPendingRequestsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeViewPendingRequestsServlet</servlet-name>
+        <url-pattern>/EmployeeViewPendingRequestsServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>EmployeeViewPastRequestServlet</servlet-name>
+        <servlet-class>EmployeeViewPastRequestServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeViewPastRequestServlet</servlet-name>
+        <url-pattern>/EmployeeViewPastRequestServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>FinancialManagerServlet</servlet-name>
+        <servlet-class>FinancialManagerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FinancialManagerServlet</servlet-name>
+        <url-pattern>/FinancialManagerServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>UpdateStatusServlet</servlet-name>
+        <servlet-class>UpdateStatusServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UpdateStatusServlet</servlet-name>
+        <url-pattern>/UpdateStatusServlet</url-pattern>
+    </servlet-mapping>
+ 
+ <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>LogoutServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FinancialManagerViewAllServlet</servlet-name>
+        <servlet-class>FinancialManagerViewAllServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FinancialManagerViewAllServlet</servlet-name>
+        <url-pattern>/FinancialManagerViewAllServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ViewEmployeeListServlet</servlet-name>
+        <servlet-class>ViewEmployeeListServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ViewEmployeeListServlet</servlet-name>
+        <url-pattern>/ViewEmployeeListServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AddFinancialManagerServlet</servlet-name>
+        <servlet-class>AddFinancialManagerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddFinancialManagerServlet</servlet-name>
+        <url-pattern>/AddFinancialManagerServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ViewFinancialManagerListServlet</servlet-name>
+        <servlet-class>ViewFinancialManagerListServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ViewFinancialManagerListServlet</servlet-name>
+        <url-pattern>/ViewFinancialManagerListServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>FinancialManagerLoginServlet</servlet-name>
+        <servlet-class>FinancialManagerLoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FinancialManagerLoginServlet</servlet-name>
+        <url-pattern>/FinancialManagerLoginServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
