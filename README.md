@@ -2,7 +2,7 @@
 
 This is a tracker that was built using Java servlets.
 
-**General function 
+** General function ** 
 They can chose the correct login page and enter their information. 
 The user can make requests for reimbursement of the expenses.
 The ticketing system stores data for each ticket in a MySQL database.
