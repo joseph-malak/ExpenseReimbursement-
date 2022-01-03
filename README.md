@@ -9,4 +9,6 @@ The ticketing system stores data for each ticket in a MySQL database.
 They can view tickets and create tickets as an employee.
 If they are a manager then they are able to approve or deny requests of employees.
 
+##Technologies
+
 Tomcat and MySQL are required to run this program. 
